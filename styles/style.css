@@ -142,6 +142,13 @@ li {
   font-weight: 400;
   color: rgba(19, 19, 24, 0.7);
 }
+.destination-img div{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 
 .choose-section{
   text-align: center;
@@ -318,7 +325,8 @@ padding: 30px;
   nav ul,
   .choose-card-1,
   .perfect-place-section,
-  .newsletter-section {
+  .newsletter-section,
+  .destination-img div {
     flex-direction: column;
   }
   header,
