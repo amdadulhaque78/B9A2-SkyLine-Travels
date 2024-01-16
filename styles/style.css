@@ -1,0 +1,134 @@
+/* Mulish fonts from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+/* header sections */
+
+header {
+  padding: 50px 120px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.nav-title img {
+  width: 48px;
+  height: 50px;
+}
+.travels {
+  color: #ff5400;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #424247;
+}
+.home {
+  color: #ff5400;
+}
+nav li a {
+  text-decoration: none;
+}
+
+/* banner sections */
+
+.banner-content {
+    text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  padding: 80px 130px;
+}
+
+.input-field{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 20px;
+display: inline-flex;
+align-items: center;
+gap: 20px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+}
+.input{
+    border-radius: 8px;
+background: #FFF;
+padding: 15px;
+border: none;
+}
+select{
+    border-radius: 8px;
+background: #FFF;
+padding: 15px 40px;
+border: none;
+}
+
+.btn-primary{
+    border-radius: 8px;
+background: #FF5400;
+padding: 15px 40px;
+border: none;
+color: #FFF;
+font-size: 1rem;
+font-weight: 700;
+
+}
+
+/* tour sections */
+
+.tour-section {
+    padding: 50px 120px;
+  display: flex;
+  gap: 30px;
+
+}
+.tour-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.tour-description, li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
