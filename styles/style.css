@@ -137,10 +137,81 @@ li {
   font-weight: 800;
 }
 .destination-description {
-  padding: 0 200px;
+  padding: 0 260px;
   font-size: 1rem;
   font-weight: 400;
   color: rgba(19, 19, 24, 0.7);
+}
+
+.choose-section{
+  text-align: center;
+  padding: 50px 120x;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.choose-title{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.choose-description{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.choose-card-1{
+  padding: 50px 140px;
+  display: flex;
+  gap: 50px;
+  text-align: left;
+}
+.choose-card-2{
+  padding: 0 450px;
+  text-align: left;
+}
+.hotel-card{
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+}
+.map-card{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+}
+.price-card{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 30px;
+}
+
+.perfect-place-section{
+  display: flex;
+  gap: 50px;
+  padding: 50px 120px;
+  text-align: left;
+  margin-top: 20px;
+}
+.perfect-place-section li{
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.perfect-place-title{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.perfect-place-description{
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.perfect-place-img{
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 
 /* responsive sections */
@@ -163,19 +234,25 @@ li {
   .tour-section,
   .input-field,
   nav,
-  nav ul {
+  nav ul,
+  .choose-card-1,
+  .perfect-place-section {
     flex-direction: column;
   }
   header,
   .tour-section,
   .destination-section,
-  .destination-description {
+  .destination-description,
+  .choose-card-1,
+  .choose-card-2,
+  .perfect-place-section {
     padding: 15px;
   }
   .destination-img img {
     width: 100%;
   }
-  .tour-img {
+  .tour-img,
+  .perfect-place-img {
     width: 100%;
   }
 }
