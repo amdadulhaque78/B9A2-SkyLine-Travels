@@ -60,18 +60,11 @@ nav li a {
   ), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
-  padding: 80px 130px;
+  height: 80vh;
+  width: auto;
+  padding: 70px;
 }
 
-.input-field{
-    border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-padding: 20px;
-display: inline-flex;
-align-items: center;
-gap: 20px;
-}
 
 .banner-title{
     font-size: 4rem;
@@ -83,6 +76,15 @@ gap: 20px;
     font-weight: 400;
     color: #FFF;
 }
+
+.input-field{
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 20px;
+display: inline-flex;
+gap: 15px;
+}
+
 .input{
     border-radius: 8px;
 background: #FFF;
@@ -131,4 +133,35 @@ font-weight: 700;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 20px;
+}
+
+
+
+
+
+/* responsive sections */
+@media screen and (max-width:600px) {
+  .logo{
+    height: 20px;
+    width: 25px;
+  }
+  .banner-content{
+    background-position: center;
+    height: 80%;
+
+  }
+  .banner-title, .nav-title, .tour-title{
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .tour-section, .input-field, nav, nav ul{
+    flex-direction: column;
+  }
+  .tour-img{
+    width: 100%;
+    height: 300px;
+  }
+  header, .tour-section{
+    padding: 20px;
+  }
 }
